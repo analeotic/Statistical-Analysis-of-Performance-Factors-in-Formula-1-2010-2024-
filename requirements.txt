@@ -1,0 +1,75 @@
+# ============================================================================
+# F1 Statistical Analysis - Python Dependencies
+# ============================================================================
+# Project: Statistical Analysis of Performance Factors in Formula 1 (2010-2024)
+# Python Version: 3.8+
+# Last Updated: December 2024
+
+# Core Data Science Libraries
+# ----------------------------------------------------------------------------
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+
+# Statistical Analysis
+# ----------------------------------------------------------------------------
+scipy>=1.10.0,<2.0.0
+statsmodels>=0.14.0,<1.0.0
+
+# Machine Learning
+# ----------------------------------------------------------------------------
+scikit-learn>=1.3.0,<2.0.0
+
+# Visualization
+# ----------------------------------------------------------------------------
+matplotlib>=3.7.0,<4.0.0
+seaborn>=0.12.0,<1.0.0
+
+# Jupyter Notebook
+# ----------------------------------------------------------------------------
+jupyter>=1.0.0
+ipykernel>=6.25.0
+notebook>=7.0.0
+
+# Data Validation & Quality
+# ----------------------------------------------------------------------------
+# Great Expectations for data validation (optional but recommended)
+# great-expectations>=0.18.0
+
+# Development & Testing (Optional)
+# ----------------------------------------------------------------------------
+# pytest>=7.4.0              # Unit testing
+# pytest-cov>=4.1.0          # Coverage reporting
+# black>=23.7.0              # Code formatting
+# flake8>=6.1.0              # Linting
+# mypy>=1.5.0                # Type checking
+
+# Documentation (Optional)
+# ----------------------------------------------------------------------------
+# sphinx>=7.1.0              # Documentation generation
+# sphinx-rtd-theme>=1.3.0    # ReadTheDocs theme
+
+# ============================================================================
+# Installation Instructions
+# ============================================================================
+#
+# 1. Create virtual environment:
+#    python -m venv .venv
+#    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+#
+# 2. Install dependencies:
+#    pip install -r requirements.txt
+#
+# 3. Verify installation:
+#    python -c "import pandas, numpy, sklearn, scipy; print('All packages installed successfully')"
+#
+# ============================================================================
+# Version Notes
+# ============================================================================
+#
+# - numpy < 2.0.0: Compatibility with statsmodels
+# - pandas >= 2.0.0: Performance improvements and better typing
+# - scikit-learn >= 1.3.0: Updated APIs and performance
+# - matplotlib >= 3.7.0: Better default styling
+# - seaborn >= 0.12.0: Compatible with matplotlib 3.7+
+#
+# ============================================================================

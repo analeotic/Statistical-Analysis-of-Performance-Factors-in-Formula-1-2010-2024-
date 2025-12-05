@@ -205,3 +205,58 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ============================================================================
+# Data Science Project Specific
+# ============================================================================
+
+# Data files (large datasets)
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.parquet
+data/processed/*.csv
+data/processed/*.pkl
+*.h5
+*.hdf5
+
+# Outputs (generated files)
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.pdf
+outputs/tables/*.csv
+outputs/reports/*.html
+outputs/reports/*.pdf
+
+# Model files
+models/*.pkl
+models/*.h5
+models/*.joblib
+*.model
+
+# Notebooks checkpoints (already covered above but being explicit)
+notebooks/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Analysis results
+analysis_results/
+results/
+*.log
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# Keep empty directories
+!.gitkeep
